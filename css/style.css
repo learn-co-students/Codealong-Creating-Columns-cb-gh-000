@@ -1,8 +1,10 @@
 @import url(http://fonts.googleapis.com/css?family=Elsie+Swash+Caps:400,900);
 @import url(http://fonts.googleapis.com/css?family=Clicker+Script);
-
-/* This 
-is 
+* {
+  box-sizing: border-box;
+}
+/* This
+is
 a comment! */
 
 /* CSS Syntax:
@@ -42,7 +44,7 @@ figcaption {
 /* ID selector (apply to one unique element per page) */
 
 #logo { /* select elements with id="logo" */
-  background: aqua;
+
 }
 
 /* Descendent Selector */
@@ -69,4 +71,77 @@ figcaption {
 
 #details a:active {
   color: red;
+}
+/* Media */
+img, video, audio {
+  max-width: 100%;
+}
+
+/* Layout */
+.center-wrapper {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.col-1 {
+  float: left;
+  width: 32%;
+  background-color: #ccc
+}
+
+.col-2 {
+  float: left;
+  width: 66%;
+  background-color: #ccc
+}
+
+.col-3 {
+  background-color: #ccc
+}
+
+[class*=col-] {
+  margin-left: 2%
+}
+
+.first {
+  margin-left: 0%;
+}
+
+.clear-fix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+  line-height: 0;
+}
+
+/* Header*/
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+  background: white;
+}
+/*Sections*/
+section {
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+#social {
+  position: fixed;
+  right: 20px;
+  top: 200px;
+  z-index: 1
+}
+
+#social a {
+  text-align: right;
+  display: block;
+  width: 40px;
+  height:40px;
+  background-color: yellow;
 }
