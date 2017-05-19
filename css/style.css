@@ -79,6 +79,13 @@ img, video, audio {
 
 /* -------- Layout -------- */
 
+* {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+
+}
+
 .wrapper {
   width: 960px;
   margin: 0 auto;
@@ -116,4 +123,11 @@ img, video, audio {
 
 .first {
   margin-left: 0%;
+}
+
+/* -------- Sections -------- */
+
+section {
+  padding: 20px;
+  margin-bottom: 20px;
 }
