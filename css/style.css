@@ -34,15 +34,15 @@ figcaption {
 /* Class selector (applied to as many elements as you like) */
 
 .milk-text { /* select elements with class="milk-text" */
-  font: bold 2.6em 'Elsie Swash Caps', cursive;
-  color: white;
+  font: bold 1.1em 'Elsie Swash Caps', cursive;
+  color: #ECF0F1;
   text-shadow: 0 2px 3px #000;
 }
 
 /* ID selector (apply to one unique element per page) */
 
 #logo { /* select elements with id="logo" */
-  background: aqua;
+  background: #2980B9;
 }
 
 /* Descendent Selector */
