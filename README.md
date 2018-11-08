@@ -10,7 +10,7 @@ like to continue working from your personal `exceptional-realty` repository:
 ```
 git clone https://github.com/<your_username_here>/exceptional-realty
 cd exceptional-realty
-```
+```hjhjhjhjhjhjhjhjhj
 
 You'll want code along on a new branch, not `master`, so create a new branch called `columns`.
 
